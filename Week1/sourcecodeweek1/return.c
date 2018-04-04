@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 int square(int n);
-
+//prototyoe for a function that will be implemented, just need input and output
 int main(void)
 {
     int x = get_int("x: ");

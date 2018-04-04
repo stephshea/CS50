@@ -1,0 +1,14 @@
+Random Number Generator(RNG) & Pseudorandom Number Generator(PRNG)
+
+I find it fascinating that many algorithms initial discovery goes back centuries and in some cases millennia. RNG due to its simplicity is quite possibly one of the first since the concept can be implemented with simple objects: sticks, coins, dice, playing cards.
+
+RNGs, though not completely random, generate a sequence of numbers or symbols that cannot be reasonably predicted. ‘Reasonable predicted’ is the key phrase to the limits and sometimes controversy of RNG.
+
+RNGs and PRNGs are widely used in gambling and state lotteries: slot machines, number drawing lotteries, scratch tickets etc. Scratch ticket creators for example use RNG to randomize the relationship between serial and lottery numbers.
+
+Because of the not completely randomness of RNGs, the Idaho Lottery, probably the largest lottery system, dips into quantum mechanics to add another layer of randomness to their RNG software. Plutonium which degrades randomly is combined with their software to increase randomness. The Idaho Lottery claims their RNG is the most accurate method to ensure randomness. But of course at the basis is still the traditional and quite simple RNG algorithm that many kids experienced when introduced to Basic programming in the late 70s/early 80s.
+
+Impact financially and socially
+Many states have become dependent revenue from gambling in all its forms. While the revenue for the states that allow gambling, especially states that also have casino gaming, has enabled work to be done that otherwise would go undone it seems and at worse cases have been the only reason some states have yet to admit bankruptcy, one could argue that the negative effects far outweigh the seemingly positive. Gambling erodes society in many ways. Those deeply entrenched in gambling have lost jobs and families. Communities with ‘beautifully’ designed casinos adorned by sprawling manicured grounds are often surrounded by communities once beautiful in themselves, now eroded, local businesses closed, homes in foreclosure, crime often increased. These stats make those additional jobs the casino provides, potentially pale in comparison to the decrease of other aspects of the community.
+
+RNG is also used with cryptocurrency, encryption, password generation, video gaming-- all of which has an impact on society and finances. The video gaming market brings in billions divided between game makers and retailers. Over the past several years the gaming market has largely switched from console games to mobile gaming. In 2016, the mobile gaming market is estimated at $38 billion in revenues, compared to $6 billion for the console market and $33 billion for personal computing gaming.
