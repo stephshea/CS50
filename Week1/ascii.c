@@ -11,7 +11,7 @@ int main(void)
     for (int i = 0; i < strlen(s); i++)
     {
         printf("%c %i\n", s[i], (int) s[i] );
-        // %c is character itself; %i integer; make char and int
+        // %c is character itself; %i integer; make char and int: typecasting
 
   }
 
