@@ -7,6 +7,6 @@
 int main()
 {
     string s = "50";
-    int i = atoi(s) + 10;
+    int i = atoi(s[0]) + 10;
     printf("%d\n", i);
 }
