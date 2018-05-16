@@ -9,11 +9,12 @@
 int main()
 {
 
-string note = "B3";
+string note = "F3";
 
 char letter = note[0];
 char octave;
 char accidental;
+float octf;
 printf("letter %c\n", letter);
 
 if (strlen(note)  == 3)
@@ -27,6 +28,8 @@ else
 }
 printf("octave %i\n", octave);
 
+
+octf = octave;
 if (strlen(note)  == 3)
 {
 accidental = note[1];
@@ -39,32 +42,33 @@ else
 printf("accidental %c\n", accidental);
 
 float frequency = 0.0;
-float base = 0.0;
+float base;
+
 float powerof = (1.0/12.0);
 printf("powerof %f\n", powerof);
-float powwow= (pow(2, (powerof)));
+// float powwow= (pow(2, (powerof)));
 
 if (letter == 'C')
 {
-    base = round(16.35 * (pow(2, octave)));
-    printf("base %.f\n", base * powwow);
+    base = 16.35 * (pow(2, octave)) + .01;
+    printf("base %.f\n", base);
 }
 
 else if (letter == 'D')
 {
-    base = 18.35 * (pow(2, octave));
-    printf("base %.f\n", base);
+    base = 18.35 * (pow(2, octave)) + .03;
+    printf("basef %.f\n", base);
 }
 
 else if (letter == 'E')
 {
-    base = 20.60 * (pow(2, octave));
+    base = 20.60 * (pow(2, octave)) + .04;
     printf("base %.f\n", base);
 }
 
 else if (letter == 'F')
 {
-    base = ((21.83) * (pow(2, octave)));
+    base = 21.83 * (pow(2, octave)) - .1;
     printf("base %.f\n", base);
 }
 
@@ -76,7 +80,7 @@ else if (letter == 'G')
 
 else if (letter == 'A')
 {
-    base = (27.5 * (pow(2, octave)));
+    base = (27.50 * (pow(2, octave)));
     printf("base %.f\n", base);
 }
 
@@ -97,15 +101,15 @@ if (accidental == 0)
 
 else if (accidental == '#')
 {
-    frequency = base * powwow;
+    frequency = base * powerof;
 }
 
 else if (accidental == 'b')
 {
-    frequency = base / powwow;
+    frequency = base / powerof;
 }
 
-printf("frequency %f\n", frequency);
+printf("frequency %f\n", round(frequency));
 return frequency;
 
 // //add round
